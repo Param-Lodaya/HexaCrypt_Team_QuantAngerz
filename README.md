@@ -9,10 +9,7 @@
 > Reed-Solomon redundancy, simulator-generated quantum measurements,
 > and an experimental chained symmetric-encryption/release-gate design.
 
-HexaCrypt is built to make a research idea testable: inspect the
-mathematical stages, run a reproducible end-to-end experiment, observe
-key-recovery and tamper-detection behaviour, and identify what still
-needs rigorous analysis before any real-world use.
+HexaCrypt aims to make a research concept experimentally verifiable by enabling users to examine its mathematical stages, run reproducible end-to-end experiments, evaluate key-recovery and tamper-detection behaviour, and identify areas requiring further rigorous analysis before practical deployment.
 
 ## Contents
 
