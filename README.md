@@ -2,11 +2,11 @@
 
 ### Experimental Hybrid Lattice Cryptography Research Prototype
 
-> **Research prototype --- not production-ready cryptography.**
+> **Research prototype - not production-ready cryptography.**
 > HexaCrypt explores a proposed key-establishment pipeline combining a
 > secret-derived mathematical function, Learning With Errors (LWE)-style
 > operations, an (A_2) hexagonal-lattice encoding/decoding experiment,
-> Reed--Solomon redundancy, simulator-generated quantum measurements,
+> Reed-Solomon redundancy, simulator-generated quantum measurements,
 > and an experimental chained symmetric-encryption/release-gate design.
 
 HexaCrypt is built to make a research idea testable: inspect the
@@ -35,7 +35,7 @@ needs rigorous analysis before any real-world use.
 
 Cryptographic research is easier to evaluate when a proposed
 construction is expressed as a pipeline with code and observable
-checks---not only as equations. HexaCrypt was created to explore a
+checks, not only as equations. HexaCrypt was created to explore a
 hybrid design and to test several linked ideas together:
 
 -   Deriving generation-specific private mathematical parameters from a
@@ -64,7 +64,7 @@ command-line demonstrator. At a high level, it can:
 3.  Generate an LWE-style public component.
 4.  Generate a 32-byte session key using a Qiskit Aer quantum-circuit
     simulator.
-5.  Apply Reed--Solomon encoding, map the encoded bits to (A_2)
+5.  Apply Reed-Solomon encoding, map the encoded bits to (A_2)
     coordinates, and pass the representation through an LWE-style
     encapsulation/decapsulation experiment.
 6.  Attempt to recover the encoded key and report whether it matches.
@@ -242,6 +242,8 @@ an independent security audit. Exact key-recovery rates depend on the
 run, randomness, parameters, and implementation. The included plots are
 experiment outputs, not universal performance or security guarantees.
 Run the scripts yourself to obtain results for your environment.
+
+> [Video Demonstration](https://youtu.be/qrE9RFlS_Os)
 
 ## Quick start
 
